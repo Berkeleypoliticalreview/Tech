@@ -92,3 +92,12 @@ p {
 	font-family: 'PT Serif', serif;
 	padding-bottom: 1vh;
 }
+
+a {
+	color: #EF798A;	
+	text-decoration: none;
+}
+
+a:hover {
+	color: #6E5E8E;
+}

@@ -91,12 +91,21 @@ body {
 }
 
 .featured {
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 .featured p {
 	font-size: 0.7em;
+}
+
+.graph_frame {
+  width: 50%;
+  height: 40vh;
+  border: none;
+
+  margin-left: 5%;
 }
 
 h1 {
@@ -122,4 +131,10 @@ a {
 
 a:hover {
 	color: #6E5E8E;
+}
+
+@media (max-width: 700px) {
+	.graph_frame {
+		width: 100%;
+	}
 }

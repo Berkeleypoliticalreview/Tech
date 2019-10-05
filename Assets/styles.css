@@ -77,6 +77,28 @@ body {
 	height: 2vh;
 }
 
+.profile_photo {
+	border-radius: 100%;
+	width: 15vw;
+	height: 15vw;
+	overflow: hidden;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+.profile_photo img {
+	width: 100%;
+}
+
+.featured {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.featured p {
+	font-size: 0.7em;
+}
+
 h1 {
 	font-size: 3em;
 }

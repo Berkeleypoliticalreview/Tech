@@ -82,51 +82,11 @@ body {
 }
 
 #personnel_table td img:hover {
-	opacity: 0.6;
+	opacity: 0.9;
 }
 
-@media (min-width: 700px) {
-	#ben:before, #james:before, #meredith:before {
-		position: absolute;
-		line-height: 100%;
-		text-align: center;
-
-		font-size: 1vw;
-
-		background-color: #2B1D5E;
-		color: white;
-
-		z-index: 99;
-
-		width: 80%;
-		margin-left: -40%;
-		margin-top: 40%;
-
-		line-height: 150%;
-
-		transition: all 0.5s ease;
-		-moz-transition: all 0.5s ease;
-		-webkit-transition: all 0.5s ease;
-
-		opacity: 0;
-	} 
-
-	#ben:before {
-		content: "bhoberman@berkeley.edu";
-	}
-
-	#james:before {
-		content: "jweichert@berkeley.edu";
-	}
-
-	#meredith:before {
-		content: "mountjoymeredith@berkeley.edu";
-	}
-
-	#personnel_table td:hover:before {
-		opacity: 1;
-	}
-
+#personnel_table td h5 {
+	color: #6E5E8E;
 }
 
 
